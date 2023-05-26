@@ -44,4 +44,4 @@ To explore more about my projects, contributions, and activities, make sure to c
 
 Thank you for visiting my profile! I look forward to the opportunity of collaborating with you in the exciting world of web development.
 
-<img src="https://github-readme-stats.vercel.app/api?username=MaxDecapitars&show_icons=true&theme=radical&rank_icon=github&count_private=true" alt="MaxDecapitars GitHub Stats"/>
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=MaxDecapitars&show_icons=true&theme=radical&rank_icon=github&count_private=true" alt="MaxDecapitars GitHub Stats"/>
