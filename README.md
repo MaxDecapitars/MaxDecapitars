@@ -19,20 +19,16 @@ Welcome to my GitHub profile. I'm a passionate full stack developer with experie
 
 ### 🔭 Featured Projects
 
-1. **Real state web application:**
+1. **[Real state web application:](https://inmobiliariavillarraga.com)**
    Implemented a custom API for efficient database management. Designed a responsive user interface. Created an intranet for internal needs and developed a highly functional web application.
-   [View](https://inmobiliariavillarraga.com)
-1. **Portfolio:**
+1. **[Portfolio:](https://maxdecapitars.site)**
    This is my portfolio as a full stack developer, where I showcase my experience, projects, and technical skills.
-   [View](https://maxdecapitars.site)
 1. **Discord Bot:**
    I'm currently working on a Discord bot using TypeScript. My aim is to create an interactive and enjoyable experience for users. I'm harnessing the benefits of TypeScript for safer and more efficient development, taking advantage of its static typing capabilities. The bot will provide custom commands and functionalities to enhance interaction in games and enrich the Discord community.
-1. **Gym TypeScript:**
+1. **[Gym TypeScript:](https://gym.maxdecapitars.site)**
    Explore my practice gym website, where I have honed my skills using TypeScript, React, and animations with Framer Motion.
-   [View](https://gym.maxdecapitars.site)
-1. **1Day1Project:**
+1. **[1Day1Project:](https://1day1project.maxdecapitars.site)**
    JavaScript projects for developers of all levels. Each project can be completed in less than a few hours and focuses on different programming skills using common web technologies such as HTML, CSS, and JavaScript.
-   [View](https://gym.maxdecapitars.site)
 
 ### 📫 Get in Touch!
 
