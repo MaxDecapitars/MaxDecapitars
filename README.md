@@ -6,7 +6,7 @@ Welcome to my GitHub profile. I'm a passionate full stack developer with experie
 
 ### 🌱 Skills
 
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaxDecapitars&hide_progress=false&theme=radical&count_private=true&card_width=300" alt="MaxDecapitars Languages"/>
+<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaxDecapitars&hide_progress=false&theme=radical&count_private=true&card_width=380" alt="MaxDecapitars Languages"/>
 
 - **Front-end:**
 
