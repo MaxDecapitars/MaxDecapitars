@@ -6,6 +6,8 @@ Welcome to my GitHub profile. I'm a passionate full stack developer with experie
 
 ### 🌱 Skills
 
+<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MaxDecapitars&hide_progress=false&theme=radical&count_private=true&card_width=300" alt="MaxDecapitars Languages"/>
+
 - **Front-end:**
 
   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg" alt="HTML5" width="50" height="50"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg" alt="CSS" width="50" height="50"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="JavaScript" width="50" height="50"/> </a> <a href="https://react.dev/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="50" height="50"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg" alt="TypeScript" width="50" height="50"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwind" width="50" height="50"/> </a> <a href="https://vitejs.dev/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Vitejs-logo.svg" alt="vite" width="50" height="50"/> </a>
@@ -14,8 +16,6 @@ Welcome to my GitHub profile. I'm a passionate full stack developer with experie
   <a href="https://nodejs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-plain.svg" alt="NodeJS" width="50" height="50"/> </a> <a href="https://expressjs.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" alt="ExpressJS" width="50" height="50"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-plain.svg" alt="MySQL" width="50" height="50"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-plain.svg" alt="MongoDB" width="50" height="50"/> </a>
 - **Other skills:**
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-plain.svg" alt="Git" width="50" height="50"/> </a> <a href="https://github.com/MaxDecapitars" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" width="50" height="50"/> </a> <a href="https://www.adobe.com/la/products/photoshop.html" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-plain.svg" alt="PhotoShop" width="50" height="50"/> </a>
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MaxDecapitars&hide_progress=false&theme=radical&count_private=true&card_width=450)](https://github.com/anuraghazra/github-readme-stats)
 
 ### 🔭 Featured Projects
 
@@ -44,4 +44,4 @@ To explore more about my projects, contributions, and activities, make sure to c
 
 Thank you for visiting my profile! I look forward to the opportunity of collaborating with you in the exciting world of web development.
 
-[![MaxDecapitars's GitHub stats](https://github-readme-stats.vercel.app/api?username=MaxDecapitars&show_icons=true&theme=radical&rank_icon=github&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
+<img src="https://github-readme-stats.vercel.app/api?username=MaxDecapitars&show_icons=true&theme=radical&rank_icon=github&count_private=true" alt="MaxDecapitars GitHub Stats"/>
