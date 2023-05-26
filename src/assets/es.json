@@ -1,0 +1,56 @@
+{
+  "Header": {
+    "title": {
+      "ThemeBtn": "Cambiar tema",
+      "LocaleBtn": "Cambiar idioma",
+      "MenuBtn": "Alternar menú"
+    }
+  },
+  "Home": {
+    "name": "Inicio",
+    "slogan": "Tejiendo sueños digitales a través de la artesanía del código.",
+    "title": "Desarrollador Web Full-Stack."
+  },
+  "About": {
+    "name": "Acerca",
+    "skills-in": "Habilidades en",
+    "profile": "Perfil",
+    "experience": "Desarrollador Web Full-Stack con 5 meses de experiencia.",
+    "comment": "Me gustaría aplicar mis habilidades y experiencia en Desarrollo Web Full-Stack en una empresa donde pueda crecer y desarrollarme profesionalmente.",
+    "download-cv": "descargar cv"
+  },
+  "Projects": {
+    "name": "Proyectos",
+    "links": {
+      "preview": "Visita el proyecto",
+      "repository": "Repositorio del proyecto",
+      "WIP": "Trabajo en progreso"
+    },
+    "title": {
+      "next": "Ver proyecto siguiente",
+      "prev": "Ver proyecto anterior"
+    }
+  },
+  "Contact": {
+    "name": "Contacto",
+    "invite1": "No dejes que tu proyecto espere más.",
+    "invite2": "Completa el formulario y déjame ayudarte a llevarlo al siguiente nivel.",
+    "form": {
+      "button": "enviar",
+      "name": "nombre",
+      "email": "correo",
+      "comments": "comentarios",
+      "messages": {
+        "maxLength": "Longitud máxima {{maxLength}} caracteres",
+        "pattern": "{{name}} no válido",
+        "required": "'{{name}}' es necesario",
+        "submitError": "Error in sending. Please try again later.",
+        "submitSuccess": "¡Datos enviados!"
+      }
+    }
+  },
+  "Footer": {
+    "repository": "Repositorio",
+    "copyright": "Todos los derechos reservados"
+  }
+}

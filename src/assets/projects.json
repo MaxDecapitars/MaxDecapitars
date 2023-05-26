@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Real estate web application",
+    "img": "real-state.webp",
+    "preview": "https://inmobiliariavillarraga.com",
+    "technologies": [
+      "NodeJS",
+      "MySQL",
+      "ExpressJS",
+      "JavaScript",
+      "HTML5",
+      "CSS",
+      "Git",
+      "GitHub"
+    ]
+  },
+  {
+    "name": "Gym TypeScript",
+    "img": "gym-typescript.webp",
+    "repository": "https://github.com/MaxDecapitars/gym-typescript",
+    "preview": "https://6411d774.gym-typescript-31r.pages.dev/",
+    "technologies": [
+      "ReactJS",
+      "TypeScript",
+      "TailwindCSS",
+      "JavaScript",
+      "HTML5",
+      "CSS",
+      "Git",
+      "GitHub"
+    ]
+  },
+  {
+    "name": "Discord Bot",
+    "img": "discord-bot.webp",
+    "technologies": [
+      "TypeScript",
+      "MongoDB",
+      "DiscordJS",
+      "NodeJS",
+      "Git",
+      "GitHub"
+    ],
+    "WIP": true
+  },
+  {
+    "name": "1Day1Project",
+    "img": "1day1project.webp",
+    "repository": "https://github.com/MaxDecapitars/1Day1Project",
+    "preview": "https://1day1project.maxdecapitars.site",
+    "technologies": ["JavaScript", "HTML5", "CSS", "Git", "GitHub"],
+    "WIP": true
+  }
+]

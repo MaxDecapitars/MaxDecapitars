@@ -1,0 +1,56 @@
+{
+  "Header": {
+    "title": {
+      "ThemeBtn": "Change theme",
+      "LocaleBtn": "Change language",
+      "MenuBtn": "Toggle menu"
+    }
+  },
+  "Home": {
+    "name": "Home",
+    "slogan": "Weaving digital dreams through the artistry of code.",
+    "title": "Full-Stack Web Developer."
+  },
+  "About": {
+    "name": "About",
+    "skills-in": "Skills in",
+    "profile": "Profile",
+    "experience": "Full-Stack Web Developer with 5 months of experience.",
+    "comment": "I would like to apply my skills and experience in Full-Stack Web Development to a company where I can grow and develop professionally.",
+    "download-cv": "download cv"
+  },
+  "Projects": {
+    "name": "Projects",
+    "links": {
+      "preview": "Visit the project",
+      "repository": "Project repository",
+      "WIP": "Work in progress"
+    },
+    "title": {
+      "next": "View next project",
+      "prev": "View previous project"
+    }
+  },
+  "Contact": {
+    "name": "Contact",
+    "invite1": "Don't let your project wait any longer.",
+    "invite2": "Fill out the form and let me help you take it to the next level.",
+    "form": {
+      "button": "submt",
+      "name": "name",
+      "email": "email",
+      "comments": "comments",
+      "messages": {
+        "maxLength": "Max length is {{maxLength}} chars",
+        "pattern": "Invalid {{name}}",
+        "required": "'{{name}}' is required",
+        "submitError": "",
+        "submitSuccess": "Data sent!"
+      }
+    }
+  },
+  "Footer": {
+    "repository": "Repository",
+    "copyright": "All rights reserved"
+  }
+}
