@@ -46,9 +46,9 @@ const Input = ({
 
   return (
     <div
-      className={`relative my-6 flex ${
-        textarea ? 'h-40' : 'h-16'
-      } items-center gap-3 border-b-[1px] border-b-gray-300 pt-6 dark:border-b-gray-700`}
+      className={`relative mb-6 flex ${
+        textarea ? 'h-40' : 'h-[5.5rem]'
+      } items-center gap-3 border-b-[1px] border-b-gray-300 pt-12 dark:border-b-gray-700`}
     >
       {!textarea && (
         <div className="h-6 text-gray-300 dark:text-gray-700">
@@ -74,10 +74,10 @@ const Input = ({
               inactive: {
                 position: 'absolute',
                 left: 0,
-                top: '1.5rem',
+                top: '3rem',
                 cursor: 'text',
               },
-              active: { left: 0, top: 0, scale: 0.8, cursor: 'default' },
+              active: { left: 0, top: '1.5rem', scale: 0.8, cursor: 'default' },
             }}
             initial="inactive"
             animate={selected ? 'active' : 'inactive'}
@@ -104,10 +104,10 @@ const Input = ({
               inactive: {
                 position: 'absolute',
                 left: '2.25rem',
-                top: '2rem',
+                top: '3.5rem',
                 cursor: 'text',
               },
-              active: { left: 0, top: 0, scale: 0.8, cursor: 'default' },
+              active: { left: 0, top: '1.5rem', scale: 0.8, cursor: 'default' },
             }}
             initial="inactive"
             animate={selected ? 'active' : 'inactive'}
