@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import { UseFormRegister, FieldErrors, RegisterOptions } from 'react-hook-form';
 import { ContactInputs } from '@/types/types';
-import { useTranslation } from 'react-i18next';
 
 type Props = {
   name: 'name' | 'email' | 'comments';

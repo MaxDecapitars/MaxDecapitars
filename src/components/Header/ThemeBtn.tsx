@@ -1,7 +1,7 @@
+import { useTranslation } from 'react-i18next';
 import { Theme } from '@/types/types';
 import Button from '@/components/shared/Button';
 import { Moon, Sun } from '@/components/shared/icons';
-import { useTranslation } from 'react-i18next';
 
 type Props = {
   theme: Theme;
@@ -9,9 +9,8 @@ type Props = {
 };
 
 const ThemeBtn = ({ theme, setTheme }: Props) => {
+  const { t } = useTranslation();
 
-  const { t } = useTranslation()
-  
   const title: string = t('Header.title.ThemeBtn');
 
   const handleClick = () => {

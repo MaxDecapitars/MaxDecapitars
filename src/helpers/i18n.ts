@@ -1,5 +1,5 @@
-import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
+import i18n from 'i18next';
 import en from '@/assets/en.json';
 import es from '@/assets/es.json';
 import { Locales } from '@/types/types';

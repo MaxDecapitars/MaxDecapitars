@@ -1,7 +1,7 @@
 import { TargetAndTransition, motion } from 'framer-motion';
 import { Project } from '@/types/types';
-import Skills from './Skills';
-import Links from './Links';
+import Skills from '@/components/Projects/Skills';
+import Links from '@/components/Projects/Links';
 
 type Props = {
   isActive: boolean;

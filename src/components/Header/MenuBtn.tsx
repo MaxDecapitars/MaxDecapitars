@@ -1,6 +1,6 @@
+import { useTranslation } from 'react-i18next';
 import Button from '@/components/shared/Button';
 import { Bars2, Bars4 } from '@/components/shared/icons';
-import { useTranslation } from 'react-i18next';
 
 type Props = {
   isMenuToggled: boolean;

@@ -1,9 +1,9 @@
-import { SelectedPage } from '@/types/types';
-import Section from '../shared/Section';
-import Form from './Form';
-import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+import { SelectedPage } from '@/types/types';
 import { animationBottom, animationRight } from '@/types/const';
+import Form from '@/components/Contact/Form';
+import Section from '@/components/shared/Section';
 
 const Contact = () => {
   const { t } = useTranslation();

@@ -1,5 +1,5 @@
-import { Theme } from '@/types/types';
 import { useState } from 'react';
+import { Theme } from '@/types/types';
 
 type themeState = {
   theme: Theme;

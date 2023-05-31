@@ -1,10 +1,10 @@
-import { useTranslation } from 'react-i18next';
-import { motion } from 'framer-motion';
-import { SelectedPage } from '@/types/types';
-import Section from '@/components/shared/Section';
 import { useContext } from 'react';
+import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 import SelectedPageContext from '@/context/SelectedPageContexts';
+import { SelectedPage } from '@/types/types';
 import { animationBottom } from '@/types/const';
+import Section from '@/components/shared/Section';
 
 const Home = () => {
   const { setSelectedPage } = useContext(SelectedPageContext);

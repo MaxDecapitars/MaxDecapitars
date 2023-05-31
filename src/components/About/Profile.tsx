@@ -1,6 +1,6 @@
-import { animationLeft } from '@/types/const';
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
+import { animationLeft } from '@/types/const';
 
 const Profile = () => {
   const { t } = useTranslation();

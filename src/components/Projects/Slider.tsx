@@ -1,13 +1,13 @@
 import { TouchEventHandler, useContext, useState } from 'react';
 import { TargetAndTransition, motion } from 'framer-motion';
-import { Project, SelectedPage } from '@/types/types';
-import Slide from './Slide';
-import projects from '@/assets/projects.json';
-import Button from '../shared/Button';
-import SelectedPageContext from '@/context/SelectedPageContexts';
-import { ArrowLongLeft, ArrowLongRight } from '../shared/icons';
 import { useTranslation } from 'react-i18next';
+import projects from '@/assets/projects.json';
+import SelectedPageContext from '@/context/SelectedPageContexts';
+import { Project, SelectedPage } from '@/types/types';
 import { animationRight, animationTop } from '@/types/const';
+import Slide from '@/components/Projects/Slide';
+import Button from '@/components/shared/Button';
+import { ArrowLongLeft, ArrowLongRight } from '@/components/shared/icons';
 
 const Slider = () => {
   const [activeIndex, setActiveIndex] = useState<number>(0);

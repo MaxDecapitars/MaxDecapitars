@@ -1,9 +1,9 @@
-import { SelectedPage } from '@/types/types';
-import Section from '../shared/Section';
-import Slider from './Slider';
-import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+import { SelectedPage } from '@/types/types';
 import { animationBottom } from '@/types/const';
+import Slider from '@/components/Projects/Slider';
+import Section from '@/components/shared/Section';
 
 const Projects = () => {
   const { t } = useTranslation();

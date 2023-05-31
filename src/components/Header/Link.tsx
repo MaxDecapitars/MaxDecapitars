@@ -1,8 +1,8 @@
 import { useContext, Dispatch, SetStateAction } from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { useTranslation } from 'react-i18next';
-import SelectedPageContext from '@/context/SelectedPageContexts';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { SelectedPage } from '@/types/types';
+import SelectedPageContext from '@/context/SelectedPageContexts';
 
 type Props = {
   page: SelectedPage;

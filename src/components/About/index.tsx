@@ -1,13 +1,13 @@
+import { useContext } from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+import SelectedPageContext from '@/context/SelectedPageContexts';
 import { SelectedPage } from '@/types/types';
+import { animationBottom, animationTop } from '@/types/const';
 import Profile from '@/components/About/Profile';
 import Skills from '@/components/About/Skills';
 import Section from '@/components/shared/Section';
-import { useContext } from 'react';
-import SelectedPageContext from '@/context/SelectedPageContexts';
-import { useTranslation } from 'react-i18next';
-import Button from '../shared/Button';
-import { animationBottom, animationTop } from '@/types/const';
+import Button from '@/components/shared/Button';
 
 const About = () => {
   const { setSelectedPage } = useContext(SelectedPageContext);

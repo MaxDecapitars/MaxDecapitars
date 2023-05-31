@@ -1,8 +1,8 @@
-import BackgroundColor from './BackgroundColor';
-import BlurredBackdrop from './BlurredBackdrop';
-import Circle from './Circle';
-import Light from './Light';
-import Sphere from './Sphere';
+import BackgroundColor from '@/components/Background/BackgroundColor';
+import BlurredBackdrop from '@/components/Background/BlurredBackdrop';
+import Circle from '@/components/Background/Circle';
+import Light from '@/components/Background/Light';
+import Sphere from '@/components/Background/Sphere';
 
 const Background = () => {
   return (

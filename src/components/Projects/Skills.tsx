@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import { Technologies } from '@/types/types';
 import { Variants, motion } from 'framer-motion';
-import * as Icons from '../shared/icons';
-import { useMediaQuery } from '@/hooks/useMediaQuery';
+import { Technologies } from '@/types/types';
 import { liAnimate } from '@/types/const';
-import Button from '../shared/Button';
-import Ul from './Ul';
+import { useMediaQuery } from '@/hooks/useMediaQuery';
+import Ul from '@/components/Projects/Ul';
+import Button from '@/components/shared/Button';
+import * as Icons from '@/components/shared/icons';
 
 type Props = {
   technologies: Technologies[];

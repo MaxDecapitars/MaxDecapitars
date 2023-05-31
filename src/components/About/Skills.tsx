@@ -1,9 +1,9 @@
-import * as Icons from '@/components/shared/icons';
-import { IconInterface, Technologies } from '@/types/types';
-import Icon from '@/components/About/Icon';
-import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+import { IconInterface, Technologies } from '@/types/types';
 import { animationRight } from '@/types/const';
+import Icon from '@/components/About/Icon';
+import * as Icons from '@/components/shared/icons';
 
 const icons: IconInterface[] = Object.values(Technologies).map(
   (technology) => ({

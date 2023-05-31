@@ -1,15 +1,15 @@
 import { useContext, useState } from 'react';
-import { useForm, SubmitHandler } from 'react-hook-form';
 import { motion } from 'framer-motion';
-import Button from '../shared/Button';
-import Input from './Input';
-import { ContactInputs, SelectedPage } from '@/types/types';
-import Loader from '../shared/Loader';
-import SubmitMessage from './SubmitMessage';
-import SelectedPageContext from '@/context/SelectedPageContexts';
-import { AtSymbol, User } from '../shared/icons';
 import { useTranslation } from 'react-i18next';
+import { useForm, SubmitHandler } from 'react-hook-form';
+import SelectedPageContext from '@/context/SelectedPageContexts';
+import { ContactInputs, SelectedPage } from '@/types/types';
 import { animationLeft } from '@/types/const';
+import Input from '@/components/Contact/Input';
+import SubmitMessage from '@/components/Contact/SubmitMessage';
+import { AtSymbol, User } from '@/components/shared/icons';
+import Button from '@/components/shared/Button';
+import Loader from '@/components/shared/Loader';
 
 const before =
   'before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:-z-[1] before:rounded-lg before:bg-secondary-50 before:bg-[linear-gradient(120deg,_#fe80b1,_#960707,_#dfb548)] before:p-[2px] before:[mask-composite:_exclude] before:[mask:_linear-gradient(#fff_0_0)_content-box,_linear-gradient(#fff_0_0)]';

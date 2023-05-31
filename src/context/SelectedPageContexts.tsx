@@ -1,5 +1,5 @@
-import { SelectedPage } from '@/types/types';
 import { createContext, useState } from 'react';
+import { SelectedPage } from '@/types/types';
 
 const defaultValue = {
   selectedPage: SelectedPage.Home,

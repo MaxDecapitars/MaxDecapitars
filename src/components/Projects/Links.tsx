@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 import { motion, useAnimate } from 'framer-motion';
-import * as Icons from '../shared/icons';
-import { liAnimate } from '@/types/const';
-import Ul from './Ul';
 import { useTranslation } from 'react-i18next';
+import { liAnimate } from '@/types/const';
+import Ul from '@/components/Projects/Ul';
+import * as Icons from '@/components/shared/icons';
 
 type Props = {
   preview?: string;

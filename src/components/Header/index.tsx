@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { SelectedPage, Theme } from '@/types/types';
+import { navAnimate } from '@/types/const';
+import { useMediaQuery } from '@/hooks/useMediaQuery';
 import Link from '@/components/Header/Link';
 import LocaleBtn from '@/components/Header/LocaleBtn';
 import ThemeBtn from '@/components/Header/ThemeBtn';
-import { useMediaQuery } from '@/hooks/useMediaQuery';
 import MenuBtn from '@/components/Header/MenuBtn';
-import { navAnimate } from '@/types/const';
 
 type Props = {
   theme: Theme;

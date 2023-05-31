@@ -1,5 +1,5 @@
-import { Locales } from '@/types/types';
 import { useTranslation } from 'react-i18next';
+import { Locales } from '@/types/types';
 import Button from '@/components/shared/Button';
 
 const LocaleBtn = () => {
