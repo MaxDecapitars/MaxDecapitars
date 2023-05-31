@@ -20,7 +20,7 @@ export const useTheme = (): themeState => {
     }
   };
 
-  const [theme, setTheme] = useState<Theme>(getUserTheme);
+  const [theme, setTheme] = useState<Theme>(getUserTheme());
 
   const handleThemeChange = (newTheme: Theme) => {
     localStorage.setItem('theme', newTheme);
