@@ -1,24 +1,26 @@
 import { Theme } from '@/types/types';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
-export const useTheme = (): {
+type themeState = {
   theme: Theme;
   setTheme: (newTheme: Theme) => void;
-} => {
-  const [theme, setTheme] = useState<Theme>(Theme.dark);
+};
 
-  useEffect(() => {
+export const useTheme = (): themeState => {
+  const getUserTheme = (): Theme => {
     const savedTheme = localStorage.getItem('theme') as Theme;
     if (savedTheme) {
-      setTheme(savedTheme);
+      return savedTheme;
     } else {
       const userPrefersDark = window.matchMedia(
         '(prefers-color-scheme: dark)'
       ).matches;
 
-      if (!userPrefersDark) setTheme(Theme.light);
+      return userPrefersDark ? Theme.dark : Theme.light;
     }
-  }, []);
+  };
+
+  const [theme, setTheme] = useState<Theme>(getUserTheme);
 
   const handleThemeChange = (newTheme: Theme) => {
     localStorage.setItem('theme', newTheme);
