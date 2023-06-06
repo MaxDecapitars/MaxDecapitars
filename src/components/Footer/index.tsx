@@ -20,6 +20,17 @@ const Footer = () => {
         <ul className="order-3 basis-1/4 laptop:text-right">
           <li className="my-4">
             <a
+              href="https://www.linkedin.com/in/camilo-villarraga/?locale=en_US"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Linkedin
+            </a>
+          </li>
+        </ul>
+        <ul className="order-2">
+          <li className="my-4">
+            <a
               href="https://github.com/MaxDecapitars/MaxDecapitars"
               target="_blank"
               rel="noopener noreferrer"
@@ -27,8 +38,6 @@ const Footer = () => {
               {t('Footer.repository')}
             </a>
           </li>
-        </ul>
-        <ul className="order-2">
           <li className="my-4">
             <a href="mailto:mdecapitars@gmail.com">mdecapitars@gmail.com</a>
           </li>
