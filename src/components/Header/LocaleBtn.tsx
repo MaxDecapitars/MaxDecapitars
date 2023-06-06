@@ -5,7 +5,6 @@ import Button from '@/components/shared/Button';
 const LocaleBtn = () => {
   const { i18n, t } = useTranslation();
 
-  
   const title: string = t('Header.title.LocaleBtn');
   const currentLocale = i18n.language as Locales;
   const newLocale = currentLocale === Locales.EN ? Locales.ES : Locales.EN;
@@ -17,7 +16,7 @@ const LocaleBtn = () => {
 
   return (
     <Button onClick={changeLanguage} title={title}>
-      <span className="inline-block w-6">{newLocale}</span>
+      <span className="inline-block w-5">{newLocale}</span>
     </Button>
   );
 };
