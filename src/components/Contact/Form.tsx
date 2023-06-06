@@ -95,7 +95,9 @@ const Form = () => {
         {isSubmitting ? (
           <Loader />
         ) : (
-          <Button type="submit">{t('Contact.form.button')}</Button>
+          <Button type="submit">
+            <span className="p-2">{t('Contact.form.button')}</span>
+          </Button>
         )}
         {submit && <SubmitMessage state={submit} />}
       </div>

@@ -19,7 +19,9 @@ const ThemeBtn = ({ theme, setTheme }: Props) => {
 
   return (
     <Button onClick={handleClick} title={title}>
-      {theme === Theme.dark ? <Sun /> : <Moon />}
+      <span className="h-full p-1">
+        {theme === Theme.dark ? <Sun /> : <Moon />}
+      </span>
     </Button>
   );
 };

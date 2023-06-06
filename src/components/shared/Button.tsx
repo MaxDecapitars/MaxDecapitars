@@ -25,12 +25,11 @@ const Button = ({ children, onClick, type = 'button', title }: Props) => {
       }}
       whileTap={{ scale: 0.8 }}
     >
-      <span
-        className={`flex h-full items-center justify-center rounded-md bg-white bg-opacity-80 p-1 px-2
-         uppercase ${clipPath} leading-none dark:bg-black dark:bg-opacity-70`}
+      <div
+        className={`flex h-full items-center justify-center rounded-md bg-white bg-opacity-80 uppercase ${clipPath} dark:bg-black dark:bg-opacity-70`}
       >
         {children}
-      </span>
+      </div>
     </motion.button>
   );
 };

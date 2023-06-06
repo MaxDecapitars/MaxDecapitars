@@ -16,7 +16,7 @@ const LocaleBtn = () => {
 
   return (
     <Button onClick={changeLanguage} title={title}>
-      <span className="inline-block w-5">{newLocale}</span>
+      <span className="flex w-8 justify-center p-2">{newLocale}</span>
     </Button>
   );
 };

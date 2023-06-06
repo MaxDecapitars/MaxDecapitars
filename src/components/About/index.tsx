@@ -20,11 +20,7 @@ const About = () => {
 
   return (
     <Section id={SelectedPage.About}>
-      <motion.h2
-        {...animationBottom}
-      >
-        {t('About.name')}
-      </motion.h2>
+      <motion.h2 {...animationBottom}>{t('About.name')}</motion.h2>
       <motion.div
         className="mt-8 gap-12 tablet:flex tablet:flex-row-reverse"
         onViewportEnter={() => setSelectedPage(SelectedPage.About)}
@@ -32,11 +28,10 @@ const About = () => {
         <Profile />
         <Skills />
       </motion.div>
-      <motion.div
-        className="mt-8"
-        {...animationTop}
-      >
-        <Button onClick={handleDownloadCV}>{btnText}</Button>
+      <motion.div className="mt-8" {...animationTop}>
+        <Button onClick={handleDownloadCV}>
+          <span className="p-2">{btnText}</span>
+        </Button>
       </motion.div>
     </Section>
   );

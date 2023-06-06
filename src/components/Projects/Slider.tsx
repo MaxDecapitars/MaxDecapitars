@@ -75,10 +75,15 @@ const Slider = () => {
       </motion.div>
       <motion.div className="mt-16 flex justify-between" {...animationTop}>
         <Button onClick={handlePrev} title={titlePrev}>
-          <ArrowLongLeft />
+          <span className="h-full p-1">
+            <ArrowLongLeft />
+          </span>
         </Button>
+
         <Button onClick={handleNext} title={titleNext}>
-          <ArrowLongRight />
+          <span className="h-full p-1">
+            <ArrowLongRight />
+          </span>
         </Button>
       </motion.div>
     </div>

@@ -18,7 +18,9 @@ const MenuBtn = ({ isMenuToggled, setIsMenuToggled }: Props) => {
 
   return (
     <Button onClick={handleClick} title={title}>
-      {isMenuToggled ? <Bars2 /> : <Bars4 />}
+      <span className="h-full p-1">
+        {isMenuToggled ? <Bars2 /> : <Bars4 />}
+      </span>
     </Button>
   );
 };

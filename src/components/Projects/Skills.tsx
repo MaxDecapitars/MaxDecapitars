@@ -61,7 +61,7 @@ const Skills = ({ technologies }: Props) => {
           })}
 
           <motion.li
-            className="relative aspect-square w-6"
+            className="relative flex aspect-square w-6 justify-center"
             variants={liAnimate}
           >
             {technologies.map((technology, index) => {
@@ -99,9 +99,9 @@ const Skills = ({ technologies }: Props) => {
             })}
 
             <Button onClick={handleMoreTechnologies}>
-              <span className="-mx-[.05rem]">
-                <small className="text-xs font-thin">+</small>
-                <small className="text-xs">{technologies.length - 3}</small>
+              <span className="p-2 text-base">
+                <small className="font-thin">+</small>
+                <small>{technologies.length - 3}</small>
               </span>
             </Button>
           </motion.li>
