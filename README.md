@@ -26,6 +26,8 @@ Welcome to my GitHub profile. I'm a passionate full stack developer with experie
    Implemented a custom API for efficient database management. Designed a responsive user interface. Created an intranet for internal needs and developed a highly functional web application.
 1. **[Portfolio:](https://maxdecapitars.site)**
    This is my portfolio as a full stack developer, where I showcase my experience, projects, and technical skills.
+1. **[Disney Plus Clone:](https://disneyclone.maxdecapitars.site)**
+   This is a Disney Plus clone created with TypeScript, Tailwind CSS, and ReactJS. The project was developed with the purpose of practicing and improving frontend development skills, focusing mainly on visual and design aspects.
 1. **Discord Bot:**
    I'm currently working on a Discord bot using TypeScript. My aim is to create an interactive and enjoyable experience for users. I'm harnessing the benefits of TypeScript for safer and more efficient development, taking advantage of its static typing capabilities. The bot will provide custom commands and functionalities to enhance interaction in games and enrich the Discord community.
 1. **[Gym TypeScript:](https://gym.maxdecapitars.site)**

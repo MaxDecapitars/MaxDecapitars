@@ -15,6 +15,22 @@
     ]
   },
   {
+    "name": "Disney Plus Clone",
+    "img": "disney-plus-clone.webp",
+    "repository": "https://github.com/MaxDecapitars/disney-plus-clone",
+    "preview": "https://disneyclone.maxdecapitars.site",
+    "technologies": [
+      "ReactJS",
+      "TypeScript",
+      "TailwindCSS",
+      "JavaScript",
+      "HTML5",
+      "CSS",
+      "Git",
+      "GitHub"
+    ]
+  },
+  {
     "name": "Gym TypeScript",
     "img": "gym-typescript.webp",
     "repository": "https://github.com/MaxDecapitars/gym-typescript",
