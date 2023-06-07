@@ -23,7 +23,7 @@ const Icon = ({ icon }: Props) => {
         <div className="[backface-visibility:_hidden]">
           <icon.icon />
         </div>
-        <figcaption className="absolute top-1/2 rounded-full bg-primary-600 px-2 py-0.5 text-xs font-bold text-white [backface-visibility:_hidden] [transform:_rotateY(180deg)_translateY(-50%)]">
+        <figcaption className="absolute top-1/2 cursor-default rounded-full bg-primary-600 px-2 py-0.5 text-xs font-bold text-white [backface-visibility:_hidden] [transform:_rotateY(180deg)_translateY(-50%)]">
           {icon.name}
         </figcaption>
       </motion.figure>
