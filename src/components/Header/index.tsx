@@ -21,7 +21,7 @@ const Header = ({ theme, setTheme }: Props) => {
   return (
     <>
       {isAboveTabletScreens ? (
-        <header className="fixed top-0 z-40 flex h-14 w-full items-center justify-center border-b-[1px] border-b-gray-50 bg-inherit py-2 backdrop-blur-lg dark:border-b-gray-900">
+        <header className="fixed top-0 z-40 flex h-14 w-full items-center justify-center border-b-[1px] border-b-gray-50 bg-inherit py-2 backdrop-blur-lg transition-colors dark:border-b-gray-900">
           <LocaleBtn />
           <nav className="flex w-3/4 max-w-screen-laptop items-center justify-evenly">
             <Link page={SelectedPage.Home} />
