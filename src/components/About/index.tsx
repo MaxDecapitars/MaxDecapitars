@@ -28,11 +28,7 @@ const About = () => {
         <Profile />
         <Skills />
       </motion.div>
-      <motion.div className="mt-8" {...animationTop}>
-        <Button onClick={handleDownloadCV}>
-          <span className="p-2">{btnText}</span>
-        </Button>
-      </motion.div>
+      
     </Section>
   );
 };
