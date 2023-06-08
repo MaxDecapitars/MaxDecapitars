@@ -3,20 +3,14 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import SelectedPageContext from '@/context/SelectedPageContexts';
 import { SelectedPage } from '@/types/types';
-import { animationBottom, animationTop } from '@/types/const';
+import { animationBottom } from '@/types/const';
 import Profile from '@/components/About/Profile';
 import Skills from '@/components/About/Skills';
 import Section from '@/components/shared/Section';
-import Button from '@/components/shared/Button';
 
 const About = () => {
   const { setSelectedPage } = useContext(SelectedPageContext);
   const { t } = useTranslation();
-  const btnText: string = t('About.download-cv');
-
-  const handleDownloadCV = () => {
-    window.open('./Camilo-Villarraga-CV.pdf', '_blank');
-  };
 
   return (
     <Section id={SelectedPage.About}>
@@ -28,7 +22,6 @@ const About = () => {
         <Profile />
         <Skills />
       </motion.div>
-      
     </Section>
   );
 };
