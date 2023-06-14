@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Game Listing App",
+    "img": "game-listing-app.webp",
+    "repository": "https://github.com/MaxDecapitars/game-listing-app",
+    "preview": "https://game-listing-app.netlify.app",
+    "technologies": [
+      "ReactJS",
+      "TailwindCSS",
+      "JavaScript",
+      "HTML5",
+      "CSS",
+      "Git",
+      "GitHub"
+    ]
+  }
+]
