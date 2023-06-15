@@ -13,5 +13,20 @@
       "Git",
       "GitHub"
     ]
+  },
+  {
+    "name": "Dice Game",
+    "img": "dice-game.webp",
+    "repository": "https://github.com/MaxDecapitars/dice-game",
+    "preview": "https://dice-game-md.netlify.app",
+    "technologies": [
+      "ReactJS",
+      "StyledComponents",
+      "JavaScript",
+      "HTML5",
+      "CSS",
+      "Git",
+      "GitHub"
+    ]
   }
 ]
