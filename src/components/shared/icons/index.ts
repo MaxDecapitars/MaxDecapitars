@@ -22,3 +22,5 @@ export { default as ArrowLongRight } from '@/components/shared/icons/ArrowLongRi
 export { default as ArrowLongLeft } from '@/components/shared/icons/ArrowLongLeft';
 export { default as AtSymbol } from '@/components/shared/icons/AtSymbol';
 export { default as User } from '@/components/shared/icons/User';
+export { default as NextJS } from '@/components/shared/icons/NextJS';
+export { default as Prisma } from '@/components/shared/icons/Prisma';
