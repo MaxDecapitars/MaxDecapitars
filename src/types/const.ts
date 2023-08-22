@@ -33,3 +33,5 @@ export const animationRight = createAnimationAttributes(-50, 0);
 export const animationLeft = createAnimationAttributes(50, 0);
 export const animationBottom = createAnimationAttributes(0, -50);
 export const animationTop = createAnimationAttributes(0, 50);
+
+export const startExperience = new Date('12/15/2022');

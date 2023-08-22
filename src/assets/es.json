@@ -1,4 +1,10 @@
 {
+  "common": {
+    "year_one": "{{count}} año",
+    "year_other": "{{count}} años",
+    "month_one": "{{count}} mes",
+    "month_other": "{{count}} meses"
+  },
   "Header": {
     "title": {
       "ThemeBtn": "Cambiar tema",
@@ -15,7 +21,7 @@
     "name": "Acerca",
     "skills-in": "Habilidades en",
     "profile": "Perfil",
-    "experience": "Desarrollador Web Full-Stack con al rededor de 8 meses de experiencia.",
+    "experience": "Desarrollador Web Full-Stack con al rededor de {{experience}} de experiencia.",
     "comment": "Me gustaría aplicar mis habilidades y experiencia en Desarrollo Web Full-Stack en una empresa donde pueda crecer y desarrollarme profesionalmente.",
     "download-cv": "descargar cv"
   },

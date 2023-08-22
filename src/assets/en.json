@@ -1,4 +1,10 @@
 {
+  "common": {
+    "year_one": "{{count}} year",
+    "year_other": "{{count}} years",
+    "month_one": "{{count}} month",
+    "month_other": "{{count}} months"
+  },
   "Header": {
     "title": {
       "ThemeBtn": "Change theme",
@@ -15,7 +21,7 @@
     "name": "About",
     "skills-in": "Skills in",
     "profile": "Profile",
-    "experience": "Full-Stack Web Developer with about 8 months of experience.",
+    "experience": "Full-Stack Web Developer with about {{experience}} of experience.",
     "comment": "I would like to apply my skills and experience in Full-Stack Web Development to a company where I can grow and develop professionally.",
     "download-cv": "download cv"
   },
