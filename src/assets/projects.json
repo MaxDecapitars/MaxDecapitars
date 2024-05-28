@@ -22,7 +22,7 @@
     "name": "Disney Plus Clone",
     "img": "disney-plus-clone.webp",
     "repository": "https://github.com/MaxDecapitars/disney-plus-clone",
-    "preview": "https://disneyclone.maxdecapitars.site",
+    "preview": "https://disney-plus-clone-maxdecapitars.vercel.app/",
     "technologies": [
       "ReactJS",
       "TypeScript",
@@ -38,7 +38,7 @@
     "name": "Gym TypeScript",
     "img": "gym-typescript.webp",
     "repository": "https://github.com/MaxDecapitars/gym-typescript",
-    "preview": "https://gym.maxdecapitars.site",
+    "preview": "https://gym-typescript-31r.pages.dev/",
     "technologies": [
       "ReactJS",
       "TypeScript",
@@ -67,7 +67,7 @@
     "name": "1Day1Project",
     "img": "1day1project.webp",
     "repository": "https://github.com/MaxDecapitars/1Day1Project",
-    "preview": "https://1day1project.maxdecapitars.site",
+    "preview": "https://maxdecapitars.github.io/1Day1Project/",
     "technologies": ["JavaScript", "HTML5", "CSS", "Git", "GitHub"],
     "WIP": true
   }
