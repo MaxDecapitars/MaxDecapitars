@@ -22,10 +22,10 @@ Welcome to my GitHub profile. I'm a passionate full stack developer with experie
 
 ### 🔭 Featured Projects
 
-1. **[Real state web application:](https://inmobiliariavillarraga.com)**
-   Implemented a custom API for efficient database management. Designed a responsive user interface. Created an intranet for internal needs and developed a highly functional web application.
 1. **[Portfolio:](https://portfolio-maxdecapitars-projects.vercel.app/)**
    This is my portfolio as a full stack developer, where I showcase my experience, projects, and technical skills.
+1. **[Real state web application:](https://inmobiliariavillarraga.com)**
+   Implemented a custom API for efficient database management. Designed a responsive user interface. Created an intranet for internal needs and developed a highly functional web application.
 1. **[Disney Plus Clone:](https://disney-plus-clone-maxdecapitars.vercel.app/)**
    This is a Disney Plus clone created with TypeScript, Tailwind CSS, and ReactJS. The project was developed with the purpose of practicing and improving frontend development skills, focusing mainly on visual and design aspects.
 1. **Discord Bot:**
